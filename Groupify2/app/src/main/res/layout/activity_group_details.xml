@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Group Member 1"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/text_Group_No" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Group Member 1"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Empty Slot"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/text_gm1_name"
+        android:autoLink="web"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Group Member 2"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Empty Slot"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/text_gm2_name"
+        android:autoLink="web"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Group Member 3"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Emply Slot"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/text_gm3_name"
+        android:autoLink="web"/>
+
+    <Button
+        android:id="@+id/bJoin"
+        android:text="Join Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
